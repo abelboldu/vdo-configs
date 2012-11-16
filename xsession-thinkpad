@@ -1,0 +1,9 @@
+exec /usr/share/mycustomloginvideo.sh &
+sleep 2 && exec pidgin &
+exec xscreensaver -nosplash &
+exec xfce4-power-manager &
+sleep 1 && exec nitrogen --restore &
+# exec awesome -c .config/awesome/rc.lua
+exec dwmstatus &
+sleep 1 && exec dwm
+
